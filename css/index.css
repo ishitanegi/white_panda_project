@@ -1,0 +1,166 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+}
+
+#grid-container{
+	display: grid;
+	grid-template-columns: 5fr 95fr;
+	
+	grid-template-rows:minmax(min-content, max-content)
+
+}
+.grid_item{
+	min-width: 50px;
+}
+
+
+.horizontal_nav{
+	display: grid;
+	grid-template-columns: 100%;
+	grid-auto-rows: 4%;
+	padding-top: 120px;
+	padding-left: 25%; 
+	box-shadow: 2px 0 5px -1px #aaa;
+
+}
+.page{
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: 5fr 95fr;
+}
+#page_header{
+	background-color:#fff; 
+	display: grid;
+	grid-template-columns: 20fr 1fr 1fr;
+	padding: 9px 9% 0 5.8%;
+	box-shadow: 2px 2px 3px 0px #aaa;
+
+}
+
+
+.page_margin{
+	margin: 5% 0 0 7%;
+}
+.content_store{
+	width: 70%;
+	
+
+}
+h4.content_store{
+	color: rgb(0, 163, 131);
+
+}
+#content_store_box{
+	width: 90%;
+	background-color: rgba(245,245,250,1);
+	padding: 10px;
+	border-radius: 5px;
+	margin-top:35px; 
+}
+#content_store_text{
+	text-align: justify;
+	margin: 15px 0 15px 0;
+	color: rgb(173, 173, 173);
+}
+#content_store_text a{
+	color: rgb(173, 173, 173);
+}
+.button {
+  
+  border: 1px solid rgb(0, 163, 131) ;
+  border-radius: 10px;
+  color: rgb(0, 163, 131);
+  padding: 10px 32px;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px 10px 2px;
+  cursor: pointer;
+}
+.card_grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 2%;
+	width: 90%;
+	margin:30px 0;
+
+
+}
+.card{
+	/*margin-top: 20px;*/
+	box-shadow: 1px 0 5px 1px #aaa;
+	padding: 15px ;
+	margin-bottom: 7%;
+	border-radius: 5%;
+}
+.card_top{
+	display: grid;
+	grid-template-columns: 1fr 2.5fr;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.card_top_text{
+	margin-top:8px; 
+	font-size: 0.9em;
+
+}
+.card_top_title{
+	font-weight: bold;
+	margin-bottom: 5px;
+
+}
+.card_content{
+	font-size: 0.8em;
+	color: rgb(173, 173, 173);
+	text-align: justify;
+
+}
+.card_button {
+  
+  border: 1px solid rgb(0, 163, 131) ;
+  border-radius: 5px;
+  color: rgb(0, 163, 131);
+  padding: 2px 8px;
+  font-size: 0.8em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 15px ;
+  cursor: pointer;
+}
+
+#card2_title{
+	color: rgb(0, 163, 131) ;
+
+}
+.footer{
+	text-align: center;
+	width: 100%;
+	color: rgb(173, 173, 173);
+	margin-bottom: 3%;
+
+}
+.footer img{
+	margin: 0 3%;
+} 
+.footer_links_div a{
+	color: rgb(173, 173, 173);
+	margin: 1.5%;
+
+}
+.copyright_div{
+	margin:1% 0;
+}
+	
+.horizontal_nav > div.selected{
+	border-right:2px solid rgb(0, 163, 131);
+	width: 100%;
+}
+div.nav_icon > img {
+    width: 26px;
+    height: 27px;
+}
